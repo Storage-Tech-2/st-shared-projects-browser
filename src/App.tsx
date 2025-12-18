@@ -271,7 +271,8 @@ function DisclaimerModal({ open, onAccept }: { open: boolean; onAccept: () => vo
           <div className="text-lg font-bold">Use at your own risk</div>
         </div>
         <div className="space-y-2 text-sm text-gray-700 dark:text-gray-200">
-          <p>There is no guarantee that the devices listed by this tool are functional.</p>
+          <p>This tool indexes devices publicly listed in the Storage Tech Discord's shared-projects channel posted before Dec 18 2025. This tool is not officially sanctioned by the Storage Tech Discord.</p>
+          <p>As anyone can post their devices in share-projects, there is no guarantee that the devices listed by this tool are functional.</p>
           <p>This is for learning purposes only!</p>
         </div>
         <div className="mt-5 flex justify-end">

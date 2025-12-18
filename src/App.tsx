@@ -272,7 +272,7 @@ function DisclaimerModal({ open, onAccept }: { open: boolean; onAccept: () => vo
         </div>
         <div className="space-y-2 text-sm text-gray-700 dark:text-gray-200">
           <p>There is no guarantee that the devices listed by this tool are functional.</p>
-          <p>This is for a learning purposes only!</p>
+          <p>This is for learning purposes only!</p>
         </div>
         <div className="mt-5 flex justify-end">
           <button
@@ -695,15 +695,29 @@ export default function App() {
             />
           </div>
           <div className="rounded-2xl border bg-white/80 p-4 text-sm shadow-sm backdrop-blur dark:border-gray-800 dark:bg-gray-900/80">
-            <div className="font-semibold text-gray-800 dark:text-gray-100">Website Based On</div>
-            <a
-              href="https://storagetech2.org"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-1 inline-flex items-center gap-1 text-blue-600 underline-offset-4 hover:underline dark:text-blue-400"
-            >
-              Storage Tech 2 ↗
-            </a>
+            <div className="space-y-2">
+              <div className="font-semibold text-gray-800 dark:text-gray-100">Data from</div>
+              <a
+                href="https://discord.gg/JufJ6uf"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1 text-blue-600 underline-offset-4 hover:underline dark:text-blue-400"
+              >
+                Storage Tech Discord ↗
+              </a>
+            </div>
+
+            <div className="mt-4 space-y-2">
+              <div className="font-semibold text-gray-800 dark:text-gray-100">Website based on</div>
+              <a
+                href="https://storagetech2.org"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1 text-blue-600 underline-offset-4 hover:underline dark:text-blue-400"
+              >
+                Storage Tech 2 ↗
+              </a>
+            </div>
           </div>
         </aside>
 
